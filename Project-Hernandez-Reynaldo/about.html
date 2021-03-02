@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index_style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--This is the horizontal navigation bar-->
+    <ul id="navbar">
+        <img class="navimg" src="images/simpsonslogo.png" alt="simpsons logo">
+        <li class="navbar"><a href="index.html" class="navbut">Home</a></li>
+        <li class="navbar"><a href="showContent.html" class="navbut">Show Content</a></li>
+        <li class="navbar"><a href="trivia.html" class="navbut">Trivia</a></li>
+        <li class="navbar"><a href="theories.html" class="navbut">Theories</a></li>
+        <li class="navbar"><a href="about.html" class="navbut">About Us</a></li>
+    </ul>
+
+    <div id="outerBody">
+        <div class="innerBody">
+            <h2>Who we are:</h2>
+            <p>Simpsons Trivia is a site made for all Simpsons fans to enjoy more about the show, converse together about their favorite parts,
+                and even try some trivia to find out if they really know each episode as much as they say they do!
+            </p>
+
+            <h2>Want to get notified?</h2>
+            <p>If you'd like to get an invite to our private Discourse as well as get emails for new material, including trivia, just fill in the 
+                box below with the email address you'd like us to notify you by. You will receive our Discourse server where many fans contribute
+                daily!
+            </p>
+
+            <form action=" http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="emailinput">
+                <input type="submit" value="SUBSCRIBE!" id="subButton">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

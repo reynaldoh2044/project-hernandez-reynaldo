@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index_style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--This is the horizontal navigation bar-->
+    <ul id="navbar">
+        <img class="navimg" src="images/simpsonslogo.png" alt="simpsons logo">
+        <li class="navbar"><a href="index.html" class="navbut">Home</a></li>
+        <li class="navbar"><a href="showContent.html" class="navbut">Show Content</a></li>
+        <li class="navbar"><a href="trivia.html" class="navbut">Trivia</a></li>
+        <li class="navbar"><a href="theories.html" class="navbut">Theories</a></li>
+        <li class="navbar"><a href="about.html" class="navbut">About Us</a></li>
+    </ul>
+
+    <div class="realBody">
+            <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+            <img src="images/chickenhomer.jpg" style="width:100%" class="slideImg">
+            <div class="text"><i>Image provided by SimpsonsWiki.com</i></div>
+            </div>
+        
+            <div class="mySlides fade">
+            <img src="images/daredevilbart.jpg" style="width:100%" class="slideImg">
+            <div class="text"><i>Image provided by SimpsonsWiki.com</i></div>
+            </div>
+        
+            <div class="mySlides fade">
+            <img src="images/margefish.jpg" style="width:100%" class="slideImg">
+            <div class="text"><i>Image provided by SimpsonsWiki.com</i></div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/simpsonfamily.jpg" style="width:100%" class="slideImg">
+                <div class="text"><i>Image provided by SimpsonsWiki.com</i></div>
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <div class="innerBody">
+            <p>Welcome to Simpson's Trivia! You can find quizes along with facts about the show and fan theories about characters and what is actually going
+                on in the show! Check out our <a href="about.html">About Us</a> page to find out how to make additions to this site as a Simpsons fan!
+            </p>
+
+            <p>To watch every single episode ever created of The Simpsons, head on over to <a href="https://www.disneyplus.com/" target="_blank">Disney Plus</a> where,
+            for a small monthly fee, you have access to that and more!</p>
+        </div>
+
+    </div>
+
+  <script src="index_js.js"></script>
+</body>
+</html>

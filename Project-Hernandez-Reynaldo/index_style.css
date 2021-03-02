@@ -1,0 +1,280 @@
+/*----------------------------------------------General Styling For Each Page------------------------------*/
+html{
+    background-image: url(images/simpsonfamily.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+.realBody{
+    padding: 15px 15px 15px 15px;
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:yellow;
+    box-shadow: 5px 5px 8px;
+    border-radius: 10px;
+    
+}
+
+#outerBody{
+    padding: 25px 25px 25px 25px;
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:yellow;
+    box-shadow: 5px 5px 8px;
+    border-radius: 10px;
+}
+
+.innerBody{
+    background-color: white;
+    box-shadow: 5px 5px 8px;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/*--------------------------------Trivia Quiz Page----------------------------*/
+.questionArea{
+    background-color: white;
+    box-shadow: 5px 5px 8px;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+
+.answersArea{
+    background-color: white;
+    box-shadow: 5px 5px 8px;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+
+#nextButton{
+    background-color: #2883ec;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+#nextButton:hover{
+    background-color: rgb(35, 189, 250);
+}
+
+/*-----------------------------------End of Trivia Quiz Page-----------------------*/
+
+/*--------------------------------------Carousel---------------------------------------*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  max-height: 500px;
+  position: relative;
+  margin: auto;
+  border-radius: 5px 5px;
+}
+
+.slideImg{
+    border-radius: 15px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+
+/*-------------------------------Navigation Bar ----------------------------------------*/
+.navarea{
+    margin-bottom: 25px;
+}
+
+#navbar{
+    height: 140px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2883ec;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 8px;
+}
+
+.navimg{
+    float: left;
+    size: 25px 25px;
+}
+
+.navbut{
+    margin-top: 80px;
+    color:white;
+    padding: 8px;
+    background-color: #2883ec;
+    float: left;
+}
+
+a{
+    color: #2883ec;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.navbut:hover{
+    background-color: rgb(35, 189, 250);
+}
+
+.navbut:active{
+    background-color: yellow;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------Subscribe button on About Us Page---------------------*/
+
+#subButton{
+    color: white;
+    border-radius: 25px;
+    background-color: #2883ec;
+    font-size: 1.2em;
+    padding: 5px 5px;
+}
+
+#subButton:hover{
+    background-color: rgb(35, 189, 250);
+}
+/*---------------------------------------------------------------------------------*/
+
+/*---------------------Scroll content in Show Content is here----------*/
+
+.scrollBox{
+    overflow: scroll;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.charater{
+    float: left;
+}
+
+.cite{
+    color: #2883ec;
+    text-decoration: none;
+    padding: none;
+}
+
+/*--------------------Scroll content in Show Content is here-----------*/
+
+
+/*--------------------Theory Subscribe Button--------------------------*/
+#theoryDownload{
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #2883ec;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    box-shadow: 5px 5px 8px;
+}
+
+#theoryDownload a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#theoryDownload:hover{
+    background-color: rgb(35, 189, 250);
+}
+/*---------------------------------------------------------*/
